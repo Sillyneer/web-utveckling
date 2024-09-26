@@ -1,64 +1,17 @@
-.title{
-    text-align:center;
-
-    font-size: 120px;
-
-    margin-bottom: 0px;
-
-    margin-top: 0px;
+.aqua-color{
+    color:aqua;
 }
 
-.studios{
-
-    text-align: end;
-
-    margin-right: 25%;
-
-    margin-top: 0px;
-
-    margin-bottom: 0px;
-}
-.welcome{
-    text-align: center;
-
-    color:red;
-
-    font-size: 30px;
+p{
+    color: #f0f;
 }
 
-.center-text{
-    text-align: center;
+.red-color{
+    color: red;
 }
 
-.no-margin{
-    margin-bottom: 0px;
-    margin-top: 0px;
+.black-color{
+    color:black 
 }
 
-.center-img{
-    margin-left: 380px;
-    margin-right: 380px;
-}
-
-.orange-red{
-    color: orangered;
-}
-
-.margin-about-pixar{
-    margin-left: 420px;
-}
-
-.margin-interactive{
-    margin-left: 4px;
-    margin-right: 6px;
-}
-
-.font-size-small{
-    font-size: 12px;
-}
-
-.no-bottom-margin{
-    margin-bottom: 0px;
-}
-
-
+.background{image-orientation:}

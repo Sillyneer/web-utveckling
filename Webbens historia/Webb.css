@@ -1,0 +1,27 @@
+.center-text{
+    text-align: center;
+}
+
+.title{
+    font-size: 50px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.all-text{
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+.under-title{
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.title-and-image {
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 70px;
+}
