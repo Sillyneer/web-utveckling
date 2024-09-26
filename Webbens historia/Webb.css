@@ -25,3 +25,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
     justify-content:space-between;
     margin-right: 70px;
 }
+
+.link-color{
+    color: cornflowerblue;
+}
