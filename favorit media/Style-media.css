@@ -18,9 +18,16 @@ body{
 
 .all-buttons{
     border-radius: 40px;
+    
+    font-size: 16px;
 }
 
 .small-image{
     width: 70%;
 
+}
+
+.gifs{
+    height: 250px;
+    width: 1100px;
 }
