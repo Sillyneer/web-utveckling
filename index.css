@@ -1,0 +1,20 @@
+.link_color{
+    color:springgreen;
+}
+
+.center_text{
+    text-align: center;
+}
+
+.background_color{
+    background-color:dimgray;
+}
+
+.grid_container{
+    display: grid;
+    grid-template: 150px / auto auto auto   ;
+}
+
+.margin_bottom{
+    margin-bottom: 5px;
+}

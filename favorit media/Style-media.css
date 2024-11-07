@@ -1,33 +1,33 @@
-body{
+body {
     background-repeat: no-repeat;
     background-size: cover;
-    background-image:url("https://static.vecteezy.com/system/resources/previews/001/431/537/non_2x/modern-eleganct-blue-background-free-vector.jpg");
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/431/537/non_2x/modern-eleganct-blue-background-free-vector.jpg");
 }
 
-.grid{
-    display: grid; 
-    grid-template-columns: auto auto auto; 
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
 
     justify-items: center;
- 
+
 }
 
-.center-text{
+.center-text {
     text-align: center;
 }
 
-.all-buttons{
+.all-buttons {
     border-radius: 40px;
-    
+
     font-size: 16px;
 }
 
-.small-image{
+.small-image {
     width: 70%;
 
 }
 
-.gifs{
+.gifs {
     height: 250px;
     width: 1100px;
 }
