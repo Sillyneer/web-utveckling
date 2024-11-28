@@ -8,21 +8,15 @@ body {
     font-size: 60px;
     text-align: center;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .subtitle{
     font-size: 30px ;
     display: block;
     max-width: 60ch;
-    margin-left: auto;
+    margin-left: 20px;
     margin-right: auto;
-}
-
-.no-margin {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
 }
 
 .grid3x3{
@@ -64,4 +58,16 @@ height: 400px;
 
 .background-color{
     background-color: #FDF7E4;
+}
+
+.table{
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 0px;
+}
+
+td,th{
+    text-align: left;
+    padding: 6px;
+    font-size: 20px;
 }
