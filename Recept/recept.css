@@ -71,3 +71,10 @@ th {
     padding: 6px;
     font-size: 20px;
 }
+
+.no-margin{
+    margin-top: 0px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
