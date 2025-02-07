@@ -1,33 +1,100 @@
 body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/001/431/537/non_2x/modern-eleganct-blue-background-free-vector.jpg");
+    background-color: rgb(128, 224, 224);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+h1 {
+    text-align: center;
 }
 
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
-
+    grid-template-rows: auto auto;
     justify-items: center;
+    text-align: center;
+
 
 }
 
-.center-text {
+.media-grid {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 60% 60%;
+    justify-items: center;
     text-align: center;
 }
 
-.all-buttons {
-    border-radius: 40px;
-
-    font-size: 16px;
+.media-grid div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: min-content;
 }
+
+.media-grid div img {
+    width: 65%;
+
+}
+
+.media-grid img {
+    width: 65%;
+}
+
 
 .small-image {
     width: 70%;
 
 }
 
+a button {
+
+
+    border-radius: 100px;
+
+    font-size: 16px;
+}
+
 .gifs {
-    height: 250px;
-    width: 1100px;
+    width: 40%;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        width: 20%;
+    }
+
+    .gifs {
+
+        width: 85%;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        justify-items: center;
+        text-align: center;
+
+    }
+
+    .media-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 60% 60%;
+        justify-items: center;
+        text-align: center;
+        margin-top: 15%;
+    }
+
 }
