@@ -6,7 +6,8 @@ body {
     margin-right: 0%;
     background-color:rgb(50, 40, 125);
     color: whitesmoke;
-   
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 main {
@@ -17,6 +18,28 @@ main {
     margin-right: 6%;
     justify-items: center;
 }
+
+ .showcase { 
+    display: grid;
+    grid-template-columns: 60% 38%;
+    justify-items: center;
+    column-gap: 2%;
+
+    background-color: rgba(0, 0, 0, 0.170);
+ }
+
+.showcase iframe {
+    width: 100%;
+}
+
+.showcase-picture{
+    width: 100%;
+}
+ 
+.publisher{
+    grid-template-columns: 30% 30% 20%;
+}
+
 
 h1 {
     font-size: 7rem;
@@ -38,7 +61,21 @@ a {color: white;
 
 }
 
+section div p {
+    text-align: left;
+}
 
+.Link{
+    color: aqua;
+}
+
+.back-arrow{width: 3%;
+
+}
+
+blue {
+    color: rgb(159, 159, 254);
+}
 
 @media only screen and (max-width: 1070px) {
     main {
