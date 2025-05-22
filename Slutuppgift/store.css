@@ -4,10 +4,9 @@ body {
     margin-bottom: 0%;
     margin-left: 0%;
     margin-right: 0%;
-    background-color:rgb(50, 40, 125);
+    background-color: rgb(37, 32, 73);
     color: whitesmoke;
-    margin-right: 10%;
-    margin-left: 10%;
+
 }
 
 main {
@@ -19,57 +18,107 @@ main {
     justify-items: center;
 }
 
- .showcase { 
+.showcase {
     display: grid;
     grid-template-columns: 60% 38%;
     justify-items: center;
     column-gap: 2%;
-
+    margin-right: 10%;
+    margin-left: 10%;
     background-color: rgba(0, 0, 0, 0.170);
- }
+}
 
 .showcase iframe {
     width: 100%;
 }
 
-.showcase-picture{
+.showcase-picture {
     width: 100%;
 }
- 
-.publisher{
+
+.publisher {
     grid-template-columns: 30% 30% 20%;
+    font-size: 80%;
+}
+
+div {
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 
 h1 {
     font-size: 7rem;
     text-align: center;
-    font-kerning:none;
+    font-kerning: none;
     margin-bottom: 4%;
     margin-top: 2%;
 
 }
 
-section p {
-    text-align: center;
+section div p {
+
     max-width: 450px;
     margin-bottom: 10%;
+    justify-self: left;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-bottom: 0%;
+}
+
+button {
+    background-color: greenyellow;
+    border-radius: 4px;
+    font-size: 80%;
+
+}
+
+.section-2 {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    background-color: rgba(0, 0, 0, 0.170);
+
+
+}
+
+.buy-menu {
+    background-color: rgb(118, 113, 134);
+    font-size: 120%;
+    justify-self: left;
+    margin-left: 20%;
+    min-width: 90%;
+
+
+}
+
+.buy-menu-text {
+    background-color: rgb(118, 113, 134);
+    font-size: 180%;
+    margin-bottom: 5%;
+    margin-top: 5%;
     justify-self: center;
 }
 
-a {color: white;
-
+.support {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-color: rgba(0, 0, 0, 0.100);
+    margin-left: 20%;
+    margin-top: 2%;
 }
 
-section div p {
-    text-align: left;
-}
+.support p {
+    margin-top: 2%;
+} 
 
-.Link{
+
+
+.Link {
     color: aqua;
 }
 
-.back-arrow{width: 3%;
+.back-arrow {
+    width: 3%;
 
 }
 
@@ -81,4 +130,4 @@ blue {
     main {
         grid-template-columns: 100%;
     }
-  }
+}
