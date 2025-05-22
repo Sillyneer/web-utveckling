@@ -73,11 +73,18 @@ button {
 
 }
 
+table{
+    text-align: right;
+}
+
 .section-2 {
     display: grid;
-    grid-template-columns: 50% 40%;
+    grid-template-columns: 60% 38%;
+    justify-items: stretch;
+    column-gap: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
     background-color: rgba(0, 0, 0, 0.170);
-
 
 }
 
@@ -85,33 +92,36 @@ button {
     background-color: rgb(118, 113, 134);
     font-size: 120%;
     justify-self: left;
-    margin-left: 20%;
+ 
     min-width: 90%;
 
 
 }
 
 .buy-menu-text {
-    background-color: rgb(118, 113, 134);
     font-size: 180%;
     margin-bottom: 5%;
     margin-top: 5%;
     justify-self: center;
 }
 
-.support {
-    display: grid;
-    grid-template-columns: 20% 80%;
-    background-color: rgba(0, 0, 0, 0.100);
-    margin-left: 20%;
-    margin-top: 2%;
+.details {
+    background-color: rgba(0, 0, 0, 0.114);
 }
 
-.support p {
-    margin-top: 2%;
+ .checkmark {
+    width: 15%;
+}
+
+.X-mark{
+    width: 20%;
+}
+
+.details p {
+    margin-bottom: 2%;
 } 
 
-
+table tr th {align-content: center;}
 
 .Link {
     color: aqua;
